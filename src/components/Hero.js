@@ -3,6 +3,7 @@
 import styled from "styled-components"
 import { ReactComponent as IconDLI } from "../img/dli-logo.svg"
 import { COMPONENT_NAME, NEXUS_NAME } from "../conf"
+import theme from "../theme"
 
 const Wrapper = styled.div`
   text-align: center;
@@ -11,6 +12,10 @@ const Wrapper = styled.div`
   padding: 6rem 3rem;
   background-color: rgba(186, 186, 186, 0.3);
   overflow: hidden;
+
+  ${theme.media.onMobile} {
+    margin: 0;
+  }
 
   ::before {
     content: "";

@@ -26,4 +26,7 @@ module.exports = {
       return webpackConfig
     },
   },
+  babel: {
+    plugins: ["babel-plugin-styled-components"],
+  },
 }

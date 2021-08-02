@@ -5,7 +5,6 @@ import styled from "styled-components"
 import { ButtonLink as ButtonLinkBase } from "./ButtonLink"
 
 const Wrapper = styled.div`
-  width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +20,10 @@ const ButtonLink = styled(ButtonLinkBase)`
   margin-top: 1rem;
 `
 
+const Title = styled.h1`
+  text-align: center;
+`
+
 export function LinkSection(props: {
   title: string,
   href: string,
@@ -33,7 +36,7 @@ export function LinkSection(props: {
   return (
     <Wrapper className={props.className}>
       {icon}
-      <h1>{title}</h1>
+      <Title>{title}</Title>
       <div>{children}</div>
       <ButtonLink href={href}>READ MORE</ButtonLink>
     </Wrapper>

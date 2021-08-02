@@ -43,6 +43,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
     "@svgr/webpack": "^5.5.0",
+    "babel-plugin-styled-components": "^1.13.2",
     "eslint-plugin-flowtype": "^5.8.2"
   }
 }

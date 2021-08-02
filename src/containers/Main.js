@@ -22,7 +22,6 @@ const Content = styled.div`
   flex-direction: column;
   flex: 1;
   padding: 0.5rem;
-  margin: 0 auto;
 `
 
 const Sections = styled.div`
@@ -38,9 +37,11 @@ const Sections = styled.div`
 const LinkSection = styled(LinkSectionBase)`
   margin: 0.5rem;
   width: 25rem;
+  max-width: 25rem;
 
   ${theme.media.onMobile} {
     margin-bottom: 2rem;
+    width: 100%;
   }
 `
 
