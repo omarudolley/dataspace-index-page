@@ -517,8 +517,8 @@ packages:
     engines: { node: ">=6.0.0" }
     hasBin: true
 
-  ? /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.14.5_@babel+core@7.12.3
-  : resolution:
+  /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.14.5_@babel+core@7.12.3:
+    resolution:
       {
         integrity: sha512-ZoJS2XCKPBfTmL122iP6NM9dOg+d4lc9fFk3zxc8iDjvt8Pk4+TlsHSKhIPf6X+L5ORCdBzqMZDjL/WHj7WknQ==,
       }
@@ -532,8 +532,8 @@ packages:
       "@babel/plugin-proposal-optional-chaining": 7.14.5_@babel+core@7.12.3
     dev: false
 
-  ? /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.14.5_@babel+core@7.14.8
-  : resolution:
+  /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.14.5_@babel+core@7.14.8:
+    resolution:
       {
         integrity: sha512-ZoJS2XCKPBfTmL122iP6NM9dOg+d4lc9fFk3zxc8iDjvt8Pk4+TlsHSKhIPf6X+L5ORCdBzqMZDjL/WHj7WknQ==,
       }
