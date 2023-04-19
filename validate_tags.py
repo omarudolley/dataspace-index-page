@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-INDEX_HTML = ROOT / "public" / "index.html"
+INDEX_HTML = ROOT / "src" / "app.html"
 CONF_JS = ROOT / "src" / "conf.js"
 PATTERN = r"\{\{.*?\..*?\}\}"
 

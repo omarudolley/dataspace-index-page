@@ -1,5 +1,0 @@
-export const COMPONENT_NAME = "{{ .Any.DIP_COMPONENT_NAME }}"
-export const DATASPACE_NAME = "{{ .Any.DIP_DATASPACE_NAME }}"
-export const DATASPACE_URL = "{{ .Any.DIP_DATASPACE_URL }}"
-export const DEV_PORTAL_URL = "{{ .Any.DIP_DEV_PORTAL_URL }}"
-export const OG_IMAGE = "{{ .Any.DIP_OG_IMAGE }}"
