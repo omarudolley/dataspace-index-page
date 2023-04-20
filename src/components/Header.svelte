@@ -2,13 +2,11 @@
   import Logo from "$lib/assets/ioxioLogo.svg"
 </script>
 
-
-<div class="container" >
+<div class="container">
   <div class="wrapper">
     <div class="logo">
       <Logo />
     </div>
-
   </div>
   <slot />
 </div>

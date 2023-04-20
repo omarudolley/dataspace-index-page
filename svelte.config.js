@@ -18,6 +18,8 @@ const config = {
     }),
     optimizeImports(),
   ],
+  hydrate: false,
+  router: false,
   kit: {
     adapter: adapter(),
     alias: {

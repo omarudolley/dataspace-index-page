@@ -10,7 +10,7 @@ tool.
 
 ```shell
 pnpm install
-pnpm run start
+pnpm run dev
 ```
 
 Deployment is made automatically into

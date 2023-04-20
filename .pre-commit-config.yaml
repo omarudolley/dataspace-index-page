@@ -13,10 +13,6 @@ repos:
         additional_dependencies:
           - prettier@^2.8.3
           - prettier-plugin-svelte@^2.9.0
-        exclude: |
-          (?x)(
-            ^.*/vendor/.*$|
-          )
   - repo: local
     hooks:
       - id: validate-tags

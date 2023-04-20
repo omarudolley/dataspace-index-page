@@ -5,7 +5,7 @@
 <div class="container">
   <div class="footer-wrapper">
     <div class="main-footer">
-      <div>Powered by IOXIO Dataspace technology</div>
+      <div>Powered by <span>IOXIO Dataspace technology</span></div>
       <div class="logo">
         <FooterLogo />
       </div>
@@ -22,7 +22,7 @@
     align-items: center;
     flex-direction: column;
     flex: 1;
-    font-size: 12px;
+    font-size: 0.75rem;
 
     .footer-wrapper {
       width: 100%;
@@ -39,6 +39,10 @@
         gap: 1.5rem;
         justify-content: space-between;
         align-items: center;
+
+        span {
+          text-decoration: underline;
+        }
 
         @include mobile {
           flex-direction: column;
