@@ -18,9 +18,9 @@ const config = {
     }),
     optimizeImports(),
   ],
-  hydrate: false,
-  router: false,
   kit: {
+    // inline all stylesheets smaller than 5kb
+    inlineStyleThreshold: 5120,
     adapter: adapter(),
     alias: {
       $components: "src/components",
