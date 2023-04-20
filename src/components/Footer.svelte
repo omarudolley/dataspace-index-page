@@ -6,9 +6,7 @@
   <div class="footer-wrapper">
     <div class="main-footer">
       <div>
-        Powered by <a href="https://sandbox.ioxio-dataspace.com/"
-          >IOXIO Dataspace technology</a
-        >
+        Powered by <a href="https://ioxio.com/dataspace">IOXIO Dataspace technology</a>
       </div>
       <div class="logo">
         <FooterLogo />
