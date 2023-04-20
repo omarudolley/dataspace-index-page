@@ -1,12 +1,13 @@
 <script lang="ts">
   import FooterLogo from "$lib/assets/footerLogo.svg"
+  import conf from "$settings"
 </script>
 
 <div class="container">
   <div class="footer-wrapper">
     <div class="main-footer">
       <div>
-        Powered by <a href="https://ioxio.com/dataspace">IOXIO Dataspace technology</a>
+        Powered by <a href={conf.IOXIO_URL}>IOXIO Dataspace technology</a>
       </div>
       <div class="logo">
         <FooterLogo />

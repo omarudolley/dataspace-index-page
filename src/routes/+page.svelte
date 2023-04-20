@@ -15,26 +15,20 @@
   <hr />
   <div class="section">
     <h3>
-      <a href="https://sandbox.ioxio-dataspace.com/"
-        >Dataspace homepage <i class="arrow right" /></a
-      >
+      <a href={conf.DATASPACE_URL}>Dataspace homepage <i class="arrow right" /></a>
     </h3>
     <p>
       Dataspaces are at the core of making existing data more flexible, usable, safer
       and inevitably more profitable. Read more about this dataspace!
     </p>
     <div class="button">
-      <Link href="https://sandbox.ioxio-dataspace.com/"
-        >Read more <i class="arrow right" /></Link
-      >
+      <Link href={conf.DATASPACE_URL}>Read more <i class="arrow right" /></Link>
     </div>
   </div>
   <hr />
   <div class="section">
     <h3>
-      <a href="https://developer.sandbox.ioxio-dataspace.com"
-        >Developer portal <i class="arrow right" /></a
-      >
+      <a href={conf.DEV_PORTAL_URL}>Developer portal <i class="arrow right" /></a>
     </h3>
     <p>
       Are you already a developer on your way to manage and discover data sources, and
@@ -42,9 +36,7 @@
       configurations.
     </p>
     <div class="button">
-      <Link href="https://developer.sandbox.ioxio-dataspace.com"
-        >Read more <i class="arrow right" /></Link
-      >
+      <Link href={conf.DEV_PORTAL_URL}>Read more <i class="arrow right" /></Link>
     </div>
   </div>
   <hr />
