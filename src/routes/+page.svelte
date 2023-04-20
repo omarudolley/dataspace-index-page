@@ -14,10 +14,14 @@
 
   <hr />
   <div class="section">
-    <h3>Dataspace homepage <i class="arrow right" /></h3>
+    <h3>
+      <a href="https://sandbox.ioxio-dataspace.com/"
+        >Dataspace homepage <i class="arrow right" /></a
+      >
+    </h3>
     <p>
       Dataspaces are at the core of making existing data more flexible, usable, safer
-      and inevitably more profitable. Read more about this dataspace !
+      and inevitably more profitable. Read more about this dataspace!
     </p>
     <div class="button">
       <Link href="https://sandbox.ioxio-dataspace.com/"
@@ -27,7 +31,11 @@
   </div>
   <hr />
   <div class="section">
-    <h3>Developer portal <i class="arrow right" /></h3>
+    <h3>
+      <a href="https://developer.sandbox.ioxio-dataspace.com"
+        >Developer portal <i class="arrow right" /></a
+      >
+    </h3>
     <p>
       Are you already a developer on your way to manage and discover data sources, and
       got lost? In the developer portal you can manage your sources and other
@@ -74,14 +82,19 @@
       justify-content: center;
 
       h3 {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
+        i {
+          margin-bottom: 0.1rem;
+        }
       }
 
       .button {
         margin-left: auto;
       }
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
     }
 
     .arrow {

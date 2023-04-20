@@ -5,7 +5,11 @@
 <div class="container">
   <div class="footer-wrapper">
     <div class="main-footer">
-      <div>Powered by <span>IOXIO Dataspace technology</span></div>
+      <div>
+        Powered by <a href="https://sandbox.ioxio-dataspace.com/"
+          >IOXIO Dataspace technology</a
+        >
+      </div>
       <div class="logo">
         <FooterLogo />
       </div>
@@ -40,8 +44,9 @@
         justify-content: space-between;
         align-items: center;
 
-        span {
+        a {
           text-decoration: underline;
+          color: inherit;
         }
 
         @include mobile {
