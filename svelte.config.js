@@ -19,6 +19,9 @@ const config = {
     optimizeImports(),
   ],
   kit: {
+    prerender: {
+      crawl: false,
+    },
     // inline all stylesheets smaller than 5kb
     inlineStyleThreshold: 5120,
     adapter: adapter(),
