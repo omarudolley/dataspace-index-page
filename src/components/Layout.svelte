@@ -45,7 +45,7 @@
         margin: auto;
         justify-content: center;
         flex-direction: column;
-        width: 70%;
+        max-width: 28.625rem;
         min-height: 25rem;
 
         @include mobile {

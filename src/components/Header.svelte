@@ -25,7 +25,7 @@
 
     .wrapper {
       width: 100%;
-      padding: 0.5rem 0;
+      padding: 1.56rem 0;
       background: $color-blue-light;
       display: flex;
       justify-content: space-between;
