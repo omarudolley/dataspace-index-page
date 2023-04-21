@@ -1,5 +1,5 @@
 <script lang="ts">
-  import conf from "$settings"
+  import conf from "$conf"
   import Link from "$components/Link.svelte"
 </script>
 
@@ -63,6 +63,7 @@
       p {
         font-size: 1rem;
         text-align: center;
+        padding: 0 0.7rem;
       }
     }
 

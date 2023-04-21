@@ -1,7 +1,7 @@
 # Dataspace Index Page template
 
 Please note that resulted HTML page contains some placeholders from
-[conf.js](src/settings/index.ts) file. The idea is to replace them using
+[conf.ts](src/conf/index.ts) file. The idea is to replace them using
 [parse-template](https://github.com/cocreators-ee/parse-template) on a target website.
 All placeholders are listed in this file for simplicity, so just override them with the
 tool.

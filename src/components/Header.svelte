@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Logo from "$lib/assets/ioxioLogo.svg"
+  import Logo from "$lib/assets/ioxioLogo.svg?component"
 </script>
 
 <div class="container">

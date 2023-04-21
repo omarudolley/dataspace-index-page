@@ -1,6 +1,6 @@
 <script lang="ts">
-  import FooterLogo from "$lib/assets/footerLogo.svg"
-  import conf from "$settings"
+  import FooterLogo from "$lib/assets/footerLogo.svg?component"
+  import conf from "$conf"
 </script>
 
 <div class="container">

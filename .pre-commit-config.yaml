@@ -15,6 +15,13 @@ repos:
           - prettier-plugin-svelte@^2.9.0
   - repo: local
     hooks:
+      - id: check
+        name: check
+        entry: pnpm check
+        language: system
+        pass_filenames: false
+  - repo: local
+    hooks:
       - id: validate-tags
         name: Validate parse-template placeholders
         entry: python validate_tags.py
