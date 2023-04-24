@@ -4,7 +4,6 @@
 
 <style lang="scss">
   .center-column {
-    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
 
