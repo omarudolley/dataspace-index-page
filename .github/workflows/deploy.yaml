@@ -3,8 +3,8 @@ name: Generate HTML file
 on:
   push:
     branches:
-      - main
       - svelte-implementation
+      - main
 
 jobs:
   Deploy:
