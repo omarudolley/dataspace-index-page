@@ -7,7 +7,7 @@
   <div class="header">
     <h2>{conf.COMPONENT_NAME}</h2>
     <p>
-      This component is a part of IOXIO Dataspace stack, and can not be accessed
+      The {conf.COMPONENT_NAME} is a part of IOXIO Dataspace stack, and can not be accessed
       directly.
     </p>
   </div>
@@ -77,6 +77,13 @@
       h3 {
         i {
           margin-bottom: 0.1rem;
+          transition: all 0.1s;
+        }
+
+        &:hover {
+          i {
+            margin-left: 0.4rem;
+          }
         }
       }
 

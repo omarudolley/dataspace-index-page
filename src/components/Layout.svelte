@@ -26,9 +26,6 @@
     width: 100%;
     margin: auto;
 
-    @include mobile {
-      min-height: 100%;
-    }
     .content-wrapper {
       max-width: $container-max-width;
       background: $color-sea;
