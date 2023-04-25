@@ -20,14 +20,14 @@ jobs:
       - name: Install pre-commit
         run: pip install pre-commit
 
-      - name: Run pre-commit
-        run: pre-commit run --all-files || exit 1
-
       - name: Install pnpm
         run: npm install -g pnpm
 
       - name: Install JS dependencies
         run: pnpm install
+
+      - name: Run pre-commit
+        run: pre-commit run --all-files || exit 1
 
       - name: Build project
         run: pnpm build
