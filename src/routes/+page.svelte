@@ -7,7 +7,7 @@
   <div class="header">
     <h2>{conf.COMPONENT_NAME}</h2>
     <p>
-      The {conf.COMPONENT_NAME} is a part of IOXIO Dataspace stack, and can not be accessed
+      The {conf.COMPONENT_NAME} is a part of the IOXIO Dataspace stack, and can not be accessed
       directly.
     </p>
   </div>
